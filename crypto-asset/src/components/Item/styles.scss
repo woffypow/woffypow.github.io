@@ -1,0 +1,35 @@
+.gain {
+  animation: fadeItGain 1s ease-in-out;
+}
+
+.loss {
+  animation: fadeItLoss 1s ease-in-out;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+@keyframes fadeItGain {
+  0% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: #2cda0a;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+@keyframes fadeItLoss {
+  0% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: #da0a0a;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
